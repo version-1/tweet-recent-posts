@@ -1,0 +1,16 @@
+database:
+    host: localhost
+    username: <username>
+    password: <password>
+    database: <database>
+
+
+twitter:
+    consumer_key: <consumer_key>
+    consumer_secret: <consumer_secret>
+    access_token: <access_token>
+    access_token_secret: <access_token_secret>
+
+limit: 20
+
+site_url: <your site url>
