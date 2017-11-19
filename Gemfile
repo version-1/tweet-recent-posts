@@ -4,11 +4,11 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem "mysql2"
+gem "ruby-mysql"
 
 # test framework
 gem "rspec"
 
-gem 'json'
+#gem 'json'
 
 gem 'oauth'

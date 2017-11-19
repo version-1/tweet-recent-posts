@@ -13,6 +13,6 @@ class Twitter
             raise 'no endpoint..'
         end
         response = @endpoint.post('https://api.twitter.com/1.1/statuses/update.json', status: message)
-        return JSON.parse(response.body)
+        return response.body
     end
 end
